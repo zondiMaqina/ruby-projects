@@ -11,17 +11,18 @@ class SubString
 
   def strings
     user_input_downcase = @user_input.downcase
+    list = Hash.new(0)
 
     @dictionary.each do |string|
       string_downcase = string.downcase
-      
-      if user_input_downcase.include?(string_downcase)
-        
-      end
+      list[string_downcase] = user_input_downcase.split(" ").count(string_downcase)
     end
+    return(list)
   end
+
 end
 
-user_input = 'Hello There world'
+user_input = 'Hello There world there hello'
 count_words = SubString.new(user_input)
-count_words.strings
+print count_words.strings
+
