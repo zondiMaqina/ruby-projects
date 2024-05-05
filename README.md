@@ -15,8 +15,8 @@ Each of these projects functionality will be explained on this page:
 2. [Sub Strings](./sub-strings/main.rb)
 3. [Bubble Sort](./bubble-sort/main.rb)
 
-## CEASOR CYPHER
 
+## CEASOR CYPHER
 ### Aim from project
 This project arranges the position of a certain letter to another letter x times 
 this is an example:
@@ -24,16 +24,17 @@ this is an example:
 ```
 letter = b ;
 shifter = 4 ;
-new_letter STring.new() ;
 
 ceasor_cypher(letter, shifter) # => letter = f ;
 ```
 The `ceasor_cypher` method shifts the letter available to another letter in the alphabet
 
 ### Challenges and Solutions
+I had trouble trying to get the same current user letter in the array of all alphabets
+So i then introduced myself to the `.index()` method which returns index of specified element
+
 
 ## SUB STRINGS 
-
 ### Aim from project
 The aim from this is to count the amount of recognisable strings from your own dictionary in a full string object set whether they are full strings or sub-strings 
 
@@ -64,8 +65,8 @@ I am having challenge on counting the amount of occurances of the dictionary str
 ```
 I learnt a new way to store string objects => `%w[string1 string2 string3]`
 
-## BUBBLE SORT
 
+## BUBBLE SORT
 ### Aim from project
 
 ### Challenges and Solutions
