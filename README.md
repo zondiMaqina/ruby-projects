@@ -11,13 +11,24 @@ Each of these projects functionality will be explained on this page:
 > [!NOTE]
 > ***All of these will be programmed using _Object Oriented Programming_***
 
-1. [Ceasor Cypher](./sub-strings/main.rb)
-2. [Sub Strings]()
-3. [Bubble Sort]()
+1. [Ceasor Cypher](./ceasor-cypher/main.rb)
+2. [Sub Strings](./sub-strings/main.rb)
+3. [Bubble Sort](./bubble-sort/main.rb)
 
 ## CEASOR CYPHER
 
 ### Aim from project
+This project arranges the position of a certain letter to another letter x times 
+this is an example:
+
+```
+letter = b ;
+shifter = 4 ;
+new_letter STring.new() ;
+
+ceasor_cypher(letter, shifter) # => letter = f ;
+```
+The `ceasor_cypher` method shifts the letter available to another letter in the alphabet
 
 ### Challenges and Solutions
 
