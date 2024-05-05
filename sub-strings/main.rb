@@ -4,9 +4,24 @@
 # return number of equal strings from user sentnece and dictionary
 
 class SubString
-  def initialize(user_sentence)
+  def initialize(sentence)
     @dictionary = ['hello', 'hell', 'world']
+    @user_input = sentence
+  end
+
+  def strings
+    user_input_downcase = @user_input.downcase
+
+    @dictionary.each do |string|
+      string_downcase = string.downcase
+      
+      if user_input_downcase.include?(string_downcase)
+        
+      end
+    end
   end
 end
 
-count_words = SubString.new()
+user_input = 'Hello There world'
+count_words = SubString.new(user_input)
+count_words.strings
