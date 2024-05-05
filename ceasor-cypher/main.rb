@@ -1,6 +1,3 @@
-# take user sentence
-# switch each letter in the user sentence
-# return new string of switched letters
 
 class CeasorCypher
   def initialize(sentence, shifter)
@@ -10,15 +7,26 @@ class CeasorCypher
   end
 
   def cypher
+    new_sentence = Array.new()
     for char in @user_input
-      gap = @letters.index(char) + @shift
-      char = @letters[gap]
-      puts char if char != nil
+        if @letters.include?(char)
+            gap = @letters.index(char) + @shift
+            char = @letters[gap] # switch each letter in the user sentence
+            new_sentence.push(char) # return new string of switched letters     
+        else
+            new_sentence.push(char)       
+        end
     end
+    return new_sentence.join('')
   end
 end
 
-string_input = 'abbyz'
-shifter = 4
+puts "write your sentence buddy"
+string_input = gets.chomp
+
+puts "enter your shifter (a digit)"
+shifter = gets.chomp
+
+# take user sentence
 input_shifter = CeasorCypher.new(string_input, shifter)
-input_shifter.cypher
+puts "You new sentence is: " + input_shifter.cypher
