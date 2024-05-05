@@ -58,7 +58,7 @@ dub_strings(sentence, dictionary) # => {:hell=> 2, :world=> 1, :hello=> 1}
 I am having challenge on counting the amount of occurances of the dictionary strings in user sentence
 
 - [ ] I truied using the `count()` method but it did not return the sub strings dupliactes 
-- [ ] I usd the `split(" ")` method with the `count()` method which worked
+- [x] I usd the `split(" ")` method with the `count()` method which worked
 
 ```
     list[string_downcase] = user_input_downcase.split(" ").count(string_downcase)
