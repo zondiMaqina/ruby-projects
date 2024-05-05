@@ -1,8 +1,7 @@
-
 class SubString
-# get user sentence and dictionary
+  # get user sentence and dictionary
   def initialize(sentence)
-    @dictionary = ['hello', 'hell', 'world']
+    @dictionary = %w[hello hell world]
     @user_input = sentence
   end
 
@@ -11,16 +10,13 @@ class SubString
     list = Hash.new(0)
     @dictionary.each do |string|
       string_downcase = string.downcase
-      if user_input_downcase.include?(string_downcase)
-        # compare dictionary list and user sentnce list
-        list[string_downcase] = user_input_downcase.split(" ").count(string_downcase)
-      end
+      # compare dictionary list and user sentnce list
+      list[string_downcase] = user_input_downcase.split(' ').count(string_downcase)
     end
-     list # return number of equal strings from user sentnece and dictionary
+    list # return number of equal strings from user sentnece and dictionary
   end
 end
 
-user_input = 'Hello There world there hello'
+user_input = 'Hello there world, hello sea'
 count_words = SubString.new(user_input)
 print count_words.strings
-
