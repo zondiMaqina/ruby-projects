@@ -11,7 +11,7 @@ Each of these projects functionality will be explained on this page:
 > [!NOTE]
 > ***All of these will be programmed using _Object Oriented Programming_***
 
-1. [Ceasor Cypher]()
+1. [Ceasor Cypher](./sub-strings/main.rb)
 2. [Sub Strings]()
 3. [Bubble Sort]()
 
@@ -51,6 +51,7 @@ I am having challenge on counting the amount of occurances of the dictionary str
 ```
     list[string_downcase] = user_input_downcase.split(" ").count(string_downcase)
 ```
+I learnt a new way to store string objects => `%w[string1 string2 string3]`
 
 ## BUBBLE SORT
 
