@@ -17,6 +17,9 @@ class SubString
   end
 end
 
+puts "Enter random sentence"
 user_input = 'Hello there world, hello sea'
 count_words = SubString.new(user_input)
+
+puts "This is the count of recognisable strings used"
 print count_words.strings
