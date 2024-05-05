@@ -8,6 +8,9 @@
 ## Development 
 Each of these projects functionality will be explained on this page:
 
+> [!NOTE]
+> ***All of these will be programmed using _Object Oriented Programming_***
+
 1. [Ceasor Cypher]()
 2. [Sub Strings]()
 3. [Bubble Sort]()
