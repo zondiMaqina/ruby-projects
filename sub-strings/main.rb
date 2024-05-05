@@ -1,10 +1,6 @@
-# get user sentence and dictionary
-# list all words used in user sentnce
-# compare dictionary list and user sentnce list
-# return number of equal strings from user sentnece and dictionary
 
 class SubString
-  def initialize(sentence)
+  def initialize(sentence) # get user sentence and dictionary
     @dictionary = ['hello', 'hell', 'world']
     @user_input = sentence
   end
@@ -15,9 +11,12 @@ class SubString
 
     @dictionary.each do |string|
       string_downcase = string.downcase
-      list[string_downcase] = user_input_downcase.split(" ").count(string_downcase)
+      if user_input_downcase.include?(string_downcase)
+        # compare dictionary list and user sentnce list
+        list[string_downcase] = user_input_downcase.split(" ").count(string_downcase)
+      end
     end
-    return(list)
+    return list # return number of equal strings from user sentnece and dictionary
   end
 
 end
