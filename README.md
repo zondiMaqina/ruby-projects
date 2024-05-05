@@ -43,7 +43,7 @@ dub_strings(sentence, dictionary) # => {:hell=> 2, :world=> 1, :hello=> 1}
 ```
 
 ### Challenges and Solutions
-
+I am having challenge on counting the amount of occurances of the dictionary strings in user sentence
 ## BUBBLE SORT
 
 ### Aim from project
