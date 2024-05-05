@@ -12,6 +12,22 @@ Each of these projects functionality will be explained on this page:
 2. [Sub Strings]()
 3. [Bubble Sort]()
 
+## CEASOR CYPHER
 
+### Aim from project
+
+### Challenges and Solutions
+
+## SUB STRINGS 
+
+### Aim from project
+
+### Challenges and Solutions
+
+## BUBBLE SORT
+
+### Aim from project
+
+### Challenges and Solutions
 
 
