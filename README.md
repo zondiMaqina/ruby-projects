@@ -78,4 +78,18 @@ To build an algorithm that sorts out a list of numbers in an array without using
 
 Trying to figure out how i can compare two integers at the same time in an array whil iterating through it 
 
+- [x] I learnt how to use index by actually adding an integer to it 
+
+```
+array = Array[1, 3, 2, 4]
+int = array.length - 1
+
+for i in 0..int
+    if array[i] > array[i + 1]
+        ...
+    end
+end 
+```
+
+I learnt how to compare two elements at the same time by using mathematical expressions in the index of array
 
