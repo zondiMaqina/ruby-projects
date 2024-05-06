@@ -11,7 +11,7 @@ class BubbleSort
            @list[i], @list[i + 1] = @list[i + 1], @list[i] # rearrange each time
         end
     end 
-    print @list  
+    @list
   end
 end
 
