@@ -1,5 +1,5 @@
 # Ruby-projects
-<p>These are back-end Ruby projects from Odin Project</p>
+These are back-end Ruby projects from Odin Project
 
 ## Material for Projects
 - VSCode
