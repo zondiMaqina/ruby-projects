@@ -1,6 +1,14 @@
 # Ruby-projects
 These are back-end Ruby projects from Odin Project
 
+## Table of Contents 
+
+1. [Material for Projects](#material-for-projects)
+2. [Development](#development)
+3. [Ceasor Cypher](#ceasor-cypher)
+4. [Sub Strings](#sub-strings)
+5. [Bubble Sort](#bubble-sort)
+
 ## Material for Projects
 - VSCode
 - RUBY
