@@ -18,20 +18,22 @@ Each of these projects functionality will be explained on this page:
 
 ## CEASOR CYPHER
 ### Aim from project
-This project arranges the position of a certain letter to another letter x times 
+This mechanism of this project is to shift the current letter to another letter at the (x) position after it
 this is an example:
 
 ```
 letter = b ;
-shifter = 4 ;
+shifter = 1 ;
 
-ceasor_cypher(letter, shifter) # => letter = f ;
+ceasor_cypher(letter, shifter) # => letter = c ;
 ```
 The `ceasor_cypher` method shifts the letter available to another letter in the alphabet
 
 ### Challenges and Solutions
 I had trouble trying to get the same current user letter in the array of all alphabets
-So i then introduced myself to the `.index()` method which returns index of specified element
+
+- [ ] I used the `split('')` method to seperate all characters from the user text
+- [x] So i then introduced myself to the `.index()` method which returns index of specified element
 
 
 ## SUB STRINGS 
@@ -58,7 +60,7 @@ dub_strings(sentence, dictionary) # => {:hell=> 2, :world=> 1, :hello=> 1}
 I am having challenge on counting the amount of occurances of the dictionary strings in user sentence
 
 - [ ] I truied using the `count()` method but it did not return the sub strings dupliactes 
-- [ ] I usd the `split(" ")` method with the `count()` method which worked
+- [x] I usd the `split(" ")` method with the `count()` method which worked
 
 ```
     list[string_downcase] = user_input_downcase.split(" ").count(string_downcase)
@@ -68,7 +70,12 @@ I learnt a new way to store string objects => `%w[string1 string2 string3]`
 
 ## BUBBLE SORT
 ### Aim from project
+To build an algorithm that sorts out a list of numbers in an array without using built in methods:
+
+- `.sort()`
 
 ### Challenges and Solutions
+
+Trying to figure out how i can compare two integers at the same time in an array whil iterating through it 
 
 
