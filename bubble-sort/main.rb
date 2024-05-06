@@ -7,10 +7,10 @@ class BubbleSort
     int = @list.length - 1
 
     for i in 0...int # iterate through all integers of array to compare
-        if @list[i] > @list[i + 1]
-           @list[i], @list[i + 1] = @list[i + 1], @list[i] # rearrange each time
-        end
-    end 
+      if @list[i] > @list[i + 1]
+       @list[i], @list[i + 1] = @list[i + 1], @list[i] # rearrange each time
+      end
+    end
     @list
   end
 end
