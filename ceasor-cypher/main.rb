@@ -16,7 +16,7 @@ class CeasorCypher
         new_sentence.push(char)
       end
     end
-    new_sentence.join('')
+    new_sentence.join("")
   end
 end
 
