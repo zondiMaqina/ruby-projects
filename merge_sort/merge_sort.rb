@@ -12,3 +12,15 @@ def merge_sort(array)
   right merge_sort(right)
   merge(left, right)
 end
+
+def merge(left, right)
+  results = []
+  while left.size > 0 && right.size > 0
+    if left[0] < right[0]
+      results << left[0]
+      left.delete_at(0)
+    else
+      results << right[0]
+      right.delete_at(0)
+    end
+  end
