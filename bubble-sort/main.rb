@@ -17,5 +17,5 @@ end
 
 list = [2, 1, 3, 10, 5]
 integer_list = BubbleSort.new(list) # take array of numbers
+puts integer_list.sort
 
-integer_list.sort
