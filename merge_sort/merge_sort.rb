@@ -7,4 +7,8 @@ def merge_sort(array)
   mid = array.size / 2
   left = array[0...mid]
   right = array[mid...array.size]
-  
+
+  left = merge_sort(left)
+  right merge_sort(right)
+  merge(left, right)
+end
