@@ -16,11 +16,14 @@ end
 def merge(left, right)
   results = []
   while left.size > 0 && right.size > 0
-    if left[0] < right[0]
+    if left[0] < right[0] # compares the left and right half or given array each recursion
       results << left[0]
-      left.delete_at(0)
+      left.delete_at(0) # removes the appended value from taken array
     else
       results << right[0]
       right.delete_at(0)
     end
+    results += left # appends the values left from left sorted array
+    results += right # appends the values left from right sorted array
+    result
   end
