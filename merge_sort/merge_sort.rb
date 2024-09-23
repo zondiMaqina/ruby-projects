@@ -3,3 +3,8 @@ def merge_sort(array)
   if array.size <= 1
     return array
   end
+
+  mid = array.size / 2
+  left = array[0...mid]
+  right = array[mid...array.size]
+  
